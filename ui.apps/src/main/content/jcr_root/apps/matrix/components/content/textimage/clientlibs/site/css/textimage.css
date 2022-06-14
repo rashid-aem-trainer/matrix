@@ -1,0 +1,15 @@
+.matrix-text-image {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.matrix-text {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.matrix-image img{
+    border-radius: 24px;
+}

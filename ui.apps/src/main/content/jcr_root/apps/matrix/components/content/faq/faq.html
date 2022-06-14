@@ -1,0 +1,21 @@
+
+		<div data-sly-use.faq="${'com.matrix.core.models.FAQModel'}" class="accordion">
+			<h2 class="accordion-title">
+				${properties.title}
+			</h2>
+			<ol class="accordion-items" data-sly-list="${faq.getAccordionlinks}">
+				<li class="accordion-item">
+					<div class="acc-ques">
+						<div class="ques-text">
+							${item.question}
+						</div>
+						<div class="ques-icon">
+
+						</div>
+					</div>
+					<div class="acc-ans">
+						${item.answer}
+					</div>
+				</li>			
+			</ol>
+		</div>
